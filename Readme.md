@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
-* Студент: [Егор Дюков](https://up.htmlacademy.ru/nodejs-api/8/user/1882591).
-* Наставник: `Неизвестно`.
+- Студент: [Егор Дюков](https://up.htmlacademy.ru/nodejs-api/8/user/1882591).
+- Наставник: [Руслан Семак](https://htmlacademy.ru/profile/id1451913).
 
 ---
 
