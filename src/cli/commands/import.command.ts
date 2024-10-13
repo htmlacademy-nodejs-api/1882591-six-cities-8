@@ -13,7 +13,7 @@ export class ImportCommand implements Command {
 
     try {
       fileReader.read();
-      fileReader.toArray();
+      console.log(fileReader.toArray());
     } catch (error) {
       if (!(error instanceof Error)) {
         throw error;

@@ -16,6 +16,7 @@ export type Offer = {
   offerType: OfferType;
   roomQuantity: number;
   guestQuantity: number;
+  price: number;
   facilities: OfferFacilities[];
   user: User;
   comments: number;
