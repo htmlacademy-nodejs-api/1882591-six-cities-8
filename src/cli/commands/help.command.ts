@@ -19,7 +19,3 @@ export class HelpCommand implements Command {
 			`);
   }
 }
-
-const helpCommand = new HelpCommand();
-
-helpCommand.execute();
