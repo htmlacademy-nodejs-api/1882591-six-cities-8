@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { Command } from "./command.interface.js";
+import { Command } from "../../shared/types/command/command.interface.js";
 
 type PackageJSONConfig = {
   version: string;
