@@ -3,7 +3,7 @@ import { TSVFilerReader } from "../../shared/libs/file-reader/index.js";
 import { Command } from "../../shared/types/index.js";
 
 export class ImportCommand implements Command {
-  public getName(): string {
+  public getName() {
     return "--import";
   }
 

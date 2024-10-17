@@ -5,6 +5,7 @@
 /dist/
 /docs/
 .idea/*
+test-data.tsv
 
 .DS_Store
 coverage

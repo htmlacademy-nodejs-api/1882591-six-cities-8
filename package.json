@@ -20,7 +20,8 @@
     "compile": "tsc -p tsconfig.json",
     "clean": "rimraf dist",
     "ts": "tsc --noEmit && node --no-warnings=--no-warnings=ExperimentalWarning --loader ts-node/esm",
-    "mocks": "json-server ./src/mocks/mock-server-data.json --port 3123 --host localhost"
+    "mocks": "json-server ./src/mocks/mock-server-data.json --port 3123 --host localhost",
+    "generate": "npm run ts ./src/main.cli.ts -- --generate 100 ./src/mocks/test-data.tsv http://localhost:3123/api"
   },
   "dependencies": {
     "chalk": "^5.3.0",
