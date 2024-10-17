@@ -1,0 +1,112 @@
+{
+  "api": {
+    "title": [
+      "Хороший отель",
+      "Уютный дом",
+      "Просторные апартаменты",
+      "Небольшая комната",
+      "Президентский люкс номер"
+    ],
+    "description": [
+      "Моковое описание Хороший отель",
+      "Моковое описание Уютный дом",
+      "Моковое описание Просторные апартаменты",
+      "Моковое описание Небольшая комната",
+      "Моковое описание Президентский люкс номер"
+    ],
+    "postDate": [
+      "2024-10-17T17:55:53.883Z",
+      "2024-10-17T17:55:53.883Z",
+      "2024-10-17T17:55:53.883Z",
+      "2024-10-17T17:55:53.883Z",
+      "2024-10-17T17:55:53.883Z",
+      "2024-10-17T17:55:53.883Z"
+    ],
+    "city": [
+      "paris",
+      "cologne",
+      "brussels",
+      "amsterdam",
+      "hamburg",
+      "dusseldorf"
+    ],
+    "previewImg": [
+      "preview-book.jpg",
+      "preview-disk.jpg",
+      "preview-home.jpg",
+      "preview-games.jpg",
+      "preview-entertainment.jpg",
+      "preview-films.jpg"
+    ],
+    "images": [
+      "image-book.jpg",
+      "image-disk.jpg",
+      "image-home.jpg",
+      "image-games.jpg",
+      "image-entertainment.jpg",
+      "image-films.jpg"
+    ],
+    "isPremium": [],
+    "isFavorite": [],
+    "rating": ["3", "1", "4", "2", "5"],
+    "offerType": ["apartment", "house", "room", "hotel"],
+    "roomQuantity": ["3", "1", "6", "2", "8"],
+    "guestQuantity": ["2", "1", "6", "3", "10"],
+    "price": [["2234", "112", "62452", "3123", "99999"]],
+    "facilities": [
+      "breakfast",
+      "air conditioning",
+      "laptop friendly workspace",
+      "baby seat",
+      "washer",
+      "towels",
+      "fridge"
+    ],
+    "users": [
+      "Иван Иванов",
+      "Олег Сидоров",
+      "Пьер Безухов",
+      "Роланд Дискейн",
+      "Холи Гибни",
+      "Джек Торренс",
+      "Антон Городецкий",
+      "Борис Гесер",
+      "Рокки Бальбоа",
+      "Джон Смит"
+    ],
+    "emails": [
+      "snow@pisem.local",
+      "president@dka.local",
+      "fish@big.local",
+      "test@pisem.local",
+      "freedom@pisem.local",
+      "rolan@pochta.local",
+      "author@mir.local",
+      "test@lost.loca",
+      "kujo-fan@story.local"
+    ],
+    "avatars": [
+      "user.jpg",
+      "photo.jpg",
+      "awesome-avatar.jpg",
+      "roland.jpg",
+      "smite.jpg",
+      "coffee.jpg"
+    ],
+    "comments": [],
+    "longitude": [
+      "56.234127",
+      "56.234127",
+      "56.234127",
+      "56.234127",
+      "56.234127"
+    ],
+    "latitude": [
+      "12.234321",
+      "12.234321",
+      "12.234321",
+      "12.234321",
+      "12.234321"
+    ]
+  }
+}
