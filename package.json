@@ -8,13 +8,25 @@
     "node.js"
   ],
   "main": "main.js",
+  "type": "module",
+  "engines": {
+    "node": "^20.0.0",
+    "npm": ">=10"
+  },
   "scripts": {
     "start": "npm run build && node ./dist/main.js",
     "build": "npm run clean && npm run compile",
     "lint": "eslint src/ --ext .ts",
     "compile": "tsc -p tsconfig.json",
     "clean": "rimraf dist",
-    "ts": "tsc --noEmit && node --no-warnings=--no-warnings=ExperimentalWarning --loader ts-node/esm"
+    "ts": "tsc --noEmit && node --no-warnings=--no-warnings=ExperimentalWarning --loader ts-node/esm",
+    "mocks": "json-server ./src/mocks/mock-server-data.json --port 3123 --host localhost",
+    "generate": "npm run ts ./src/main.cli.ts -- --generate 100 ./src/mocks/test-data.tsv http://localhost:3123/api"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dayjs": "^1.11.13",
+    "got": "^14.4.3"
   },
   "devDependencies": {
     "@types/node": "20.12.7",
@@ -22,16 +34,10 @@
     "@typescript-eslint/parser": "6.7.0",
     "eslint": "8.49.0",
     "eslint-config-htmlacademy": "9.1.1",
+    "json-server": "^0.17.3",
     "rimraf": "5.0.1",
     "ts-node": "10.9.2",
+    "tslib": "^2.8.0",
     "typescript": "5.4.5"
-  },
-  "type": "module",
-  "engines": {
-    "node": "^20.0.0",
-    "npm": ">=10"
-  },
-  "dependencies": {
-    "chalk": "^5.3.0"
   }
 }

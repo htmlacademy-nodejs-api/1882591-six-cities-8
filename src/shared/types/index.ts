@@ -1,4 +1,5 @@
 export { Command } from "./command/command.interface.js";
+export { MockServerData } from "./mocks/mock-server-data.type.js";
 export { OfferCity } from "./offer/offer-city.enum.js";
 export { OfferFacilities } from "./offer/offer-facilities.enum.js";
 export { OfferType } from "./offer/offer-type.enum.js";
