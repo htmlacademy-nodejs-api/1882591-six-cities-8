@@ -46,13 +46,13 @@
       "image-entertainment.jpg",
       "image-films.jpg"
     ],
-    "isPremium": [],
-    "isFavorite": [],
+    "isPremium": [true, false, true, false, true],
+    "isFavorite": [true, false, true, false, true],
     "rating": ["3", "1", "4", "2", "5"],
     "offerType": ["apartment", "house", "room", "hotel"],
     "roomQuantity": ["3", "1", "6", "2", "8"],
     "guestQuantity": ["2", "1", "6", "3", "10"],
-    "price": [["2234", "112", "62452", "3123", "99999"]],
+    "price": ["2234", "112", "62452", "3123", "99999"],
     "facilities": [
       "breakfast",
       "air conditioning",
