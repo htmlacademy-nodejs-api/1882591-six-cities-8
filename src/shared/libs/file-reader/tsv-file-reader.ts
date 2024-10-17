@@ -4,7 +4,6 @@ import {
   OfferCity,
   OfferFacilities,
   OfferType,
-  User,
   UserType,
 } from "../../types/index.js";
 import { FileReader } from "./file-reader.interface.js";
@@ -22,22 +21,6 @@ export class TSVFilerReader implements FileReader {
 
   private parseArrayField<T extends string>(field: string): T[] {
     return field.split(";") as T[];
-  }
-
-  private parseUser(
-    firstname: string,
-    email: string,
-    avatarPath: string,
-    password: string,
-    userType: string
-  ): User {
-    return {
-      firstname,
-      email,
-      avatarPath,
-      password,
-      userType: userType as UserType,
-    };
   }
 
   private parseLineToOffer(line: string): Offer {
@@ -58,7 +41,7 @@ export class TSVFilerReader implements FileReader {
       facilities,
       firstname,
       email,
-      avatar,
+      avatarPath,
       password,
       userType,
       comments,
@@ -84,7 +67,13 @@ export class TSVFilerReader implements FileReader {
       isFavorite: JSON.parse(isFavorite),
       images: this.parseArrayField(images),
       facilities: this.parseArrayField<OfferFacilities>(facilities),
-      user: this.parseUser(firstname, email, avatar, password, userType),
+      user: {
+        firstname,
+        email,
+        avatarPath,
+        password,
+        userType: userType as UserType,
+      },
     };
   }
 
