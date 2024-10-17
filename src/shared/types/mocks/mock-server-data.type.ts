@@ -14,6 +14,8 @@ export type MockServerData = {
   price: string[];
   facilities: string[];
   users: string[];
+  passwords: string[];
+  userTypes: string[];
   emails: string[];
   avatars: string[];
   comments: string[];

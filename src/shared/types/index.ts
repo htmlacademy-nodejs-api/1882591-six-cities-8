@@ -1,4 +1,3 @@
-export { OfferGenerator } from "../libs/offer-generator/offer-generator.interface.js";
 export { Command } from "./command/command.interface.js";
 export { MockServerData } from "./mocks/mock-server-data.type.js";
 export { OfferCity } from "./offer/offer-city.enum.js";
