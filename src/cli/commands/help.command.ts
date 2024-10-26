@@ -2,7 +2,7 @@ import chalk from "chalk";
 import { Command } from "../../shared/types/command/command.interface.js";
 
 export class HelpCommand implements Command {
-  public getName(): string {
+  public getName() {
     return "--help";
   }
 

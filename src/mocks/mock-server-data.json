@@ -1,0 +1,125 @@
+{
+  "api": {
+    "title": [
+      "Хороший отель",
+      "Уютный дом",
+      "Просторные апартаменты",
+      "Небольшая комната",
+      "Президентский люкс номер"
+    ],
+    "description": [
+      "Моковое описание Хороший отель",
+      "Моковое описание Уютный дом",
+      "Моковое описание Просторные апартаменты",
+      "Моковое описание Небольшая комната",
+      "Моковое описание Президентский люкс номер"
+    ],
+    "postDate": [
+      "2024-10-17T17:55:53.883Z",
+      "2024-10-17T17:55:53.883Z",
+      "2024-10-17T17:55:53.883Z",
+      "2024-10-17T17:55:53.883Z",
+      "2024-10-17T17:55:53.883Z",
+      "2024-10-17T17:55:53.883Z"
+    ],
+    "city": [
+      "paris",
+      "cologne",
+      "brussels",
+      "amsterdam",
+      "hamburg",
+      "dusseldorf"
+    ],
+    "previewImg": [
+      "preview-book.jpg",
+      "preview-disk.jpg",
+      "preview-home.jpg",
+      "preview-games.jpg",
+      "preview-entertainment.jpg",
+      "preview-films.jpg"
+    ],
+    "images": [
+      "image-book.jpg",
+      "image-disk.jpg",
+      "image-home.jpg",
+      "image-games.jpg",
+      "image-entertainment.jpg",
+      "image-films.jpg"
+    ],
+    "isPremium": [true, false, true, false, true],
+    "isFavorite": [true, false, true, false, true],
+    "rating": ["3", "1", "4", "2", "5"],
+    "offerType": ["apartment", "house", "room", "hotel"],
+    "roomQuantity": ["3", "1", "6", "2", "8"],
+    "guestQuantity": ["2", "1", "6", "3", "10"],
+    "price": ["2234", "112", "62452", "3123", "99999"],
+    "facilities": [
+      "breakfast",
+      "air conditioning",
+      "laptop friendly workspace",
+      "baby seat",
+      "washer",
+      "towels",
+      "fridge"
+    ],
+    "users": [
+      "Иван",
+      "Олег",
+      "Пьер",
+      "Роланд",
+      "Холи",
+      "Джек",
+      "Антон",
+      "Борис",
+      "Рокки",
+      "Джон"
+    ],
+    "passwords": [
+      "asd123",
+      "bsdf1123",
+      "cxbvxc213",
+      "ngns2131",
+      "gmfgfhn2123",
+      "m23lk4sdf",
+      "123k4nn",
+      "vas86dsdf",
+      "asdf7s08",
+      "as98f9asd"
+    ],
+    "userTypes": ["pro", "common"],
+    "emails": [
+      "snow@pisem.local",
+      "president@dka.local",
+      "fish@big.local",
+      "test@pisem.local",
+      "freedom@pisem.local",
+      "rolan@pochta.local",
+      "author@mir.local",
+      "test@lost.loca",
+      "kujo-fan@story.local"
+    ],
+    "avatars": [
+      "user.jpg",
+      "photo.jpg",
+      "awesome-avatar.jpg",
+      "roland.jpg",
+      "smite.jpg",
+      "coffee.jpg"
+    ],
+    "comments": ["dfsdfsdf", "lol kek"],
+    "longitude": [
+      "56.234127",
+      "56.234127",
+      "56.234127",
+      "56.234127",
+      "56.234127"
+    ],
+    "latitude": [
+      "12.234321",
+      "12.234321",
+      "12.234321",
+      "12.234321",
+      "12.234321"
+    ]
+  }
+}
